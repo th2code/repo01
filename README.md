@@ -37,8 +37,30 @@ Header1,2는 본 문서의 큰제목(Markdown language)과 두번째 제목(Head
 ```
 
 *이탤릭체*
+
 **볼드체**
+
 ~~취소선~~
+
 <u>밑줄</u>
 
+
+## 코드블럭
+
+```java
+public class SampleJavaCode{
+  public static void main(){
+    String str = "Hello world";
+    System.out.println(str);
+  }
+}
+```
+
+```sql
+SELECT * 
+  FROM TABLE_A, TABLE_B
+ WHERE A.PK = B.FK
+   AND A.W_DATE = TO_CHAR(SYSDATE, 'YYYYMMDD')
+;
+```
 
