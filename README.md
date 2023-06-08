@@ -12,19 +12,33 @@ HTML보다는 간단하게 쓸수 있어 Down이라고 했나??!
 
 ## Header
 여섯단계로 구성되며 #의 개수로 하위 depth로 내려간다.
+```
 ### header3
 #### header4
 ##### header5
 ###### header6
+```
+
+### header3
+#### header4
+##### header5
+###### header6
+
+
 Header1,2는 본 문서의 큰제목(Markdown language)과 두번째 제목(Header)에서 볼수 있음 (Underline은 덤)
 
 
 ## Emphasis (강조)
+```
+*이탤릭체*
+**볼드체**
+~~취소선~~
+<u>밑줄</u>
+```
 
 *이탤릭체*
-
 **볼드체**
-
 ~~취소선~~
-
 <u>밑줄</u>
+
+
